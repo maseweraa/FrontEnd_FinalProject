@@ -1,0 +1,179 @@
+body {
+    margin: 10px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #050505;
+    color: #acacac;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 750px;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #44d62c;
+}
+
+nav a.active {
+    color: #44d62c;
+}
+
+header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #44d62c;
+}
+
+#intro {
+    text-align: center;
+    padding-top: 50px;
+	padding-bottom: 90px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.introHeading {
+    font-size: 26px;
+    margin: 0;
+    color: #44d62c;
+}
+
+.introSubheading {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.introText {
+    font-size: 16px;
+    margin: 0;
+    color: #808080;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.imageRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.imageRow:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.imageDescription {
+    margin-left: 20px;
+    max-width: 50%;
+}
+
+.imageDescription.right {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.imageDescription:last-child {
+    margin-left: 0;
+}
+
+.imageDescription h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #44d62c;
+}
+
+.imageDescription p {
+    margin-bottom: 0;
+}
+
+#formContainer {
+    text-align: center;
+    margin: 20px;
+}
+
+.formHeading {
+    margin: 0;
+    color: #fff;
+}
+
+#purchaseForm {
+    display: inline-block;
+    text-align: left;
+}
+
+#purchaseForm label,
+#purchaseForm input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.orderLink {
+    color: #44d62c;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+	padding-top: 10px;
+}
+
+.logo {
+    text-align: right;
+}
+
+.logo img {
+    max-width: 90%;
+    height: 90%;
+}
